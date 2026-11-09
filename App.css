@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f2f2f2;
+}
+
+.container {
+  width: 500px;
+  margin: 50px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0,0,0,.2);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 100%;
+  height: 250px;
+  resize: none;
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 8px;
+  outline: none;
+}
+
+.saved {
+  margin-top: 15px;
+  color: green;
+  font-size: 18px;
+  font-weight: bold;
+}
